@@ -46,7 +46,7 @@ If everything is set up _correctly_, you should see your new app running in your
 This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
 
 ## 2. Libraries Used and Why
-### a. Nativewind: TailwindCSS for React Native. Very cool and useful tool for styling. Not only does it make it easier to style by having to write less code, but the built-in style system is also very useful. Their color library, unit sizes etc, were all chosen with reason and for mathematical reasons. The colors work well together unlike arbitrary colors. The padding/margin/text size increments also utilize design science. It helps the design aspect "just work".
+1. Nativewind: TailwindCSS for React Native. Very cool and useful tool for styling. Not only does it make it easier to style by having to write less code, but the built-in style system is also very useful. Their color library, unit sizes etc, were all chosen with reason and for mathematical reasons. The colors work well together unlike arbitrary colors. The padding/margin/text size increments also utilize design science. It helps the design aspect "just work".
 
 ## The screenshot
 
@@ -55,14 +55,14 @@ This is one way to run your app — you can also run it directly from within And
 
 ## What you would do if you had more time?
 
-### 1. Have an in-depth meeting about what data / functionality is needed. Do we need to show the hourly forecast? Are we using the OpenWeather provided icons, or our own? Do we have a design, or am I making it to my own taste? Do you want the forecasted dates to expand into an in-depth view when tapped? Etc.
+1. Have an in-depth meeting about what data / functionality is needed. Do we need to show the hourly forecast? Are we using the OpenWeather provided icons, or our own? Do we have a design, or am I making it to my own taste? Do you want the forecasted dates to expand into an in-depth view when tapped? Etc.
 
-### 2. I would add support for multiple search types (by city, by current location, etc).
+2. I would add support for multiple search types (by city, by current location, etc).
 
-### 3. I would add more data to the current weather at least, and maybe the forecast too.
+3. I would add more data to the current weather at least, and maybe the forecast too.
 
-### 4. Ability to save cities and view them all
+4. Ability to save cities and view them all
 
-### 5. I would look deeper into the API docs and see if there is a way to get current and forecast in one request. Would also add a backend so that we can cache the API data and not eat through our rate-limits.
+5. I would look deeper into the API docs and see if there is a way to get current and forecast in one request. Would also add a backend so that we can cache the API data and not eat through our rate-limits.
 
-### 6. Would have the API key in a .env file, but in case whoever is reviewing this code doesnt have one, I just included a key.
+6. Would have the API key in a .env file, but in case whoever is reviewing this code doesnt have one, I just included a key.
